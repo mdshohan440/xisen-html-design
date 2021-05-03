@@ -1,0 +1,145 @@
+/* Laptop devices :1200px.check with 1366px */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .manage-img img {
+        margin-left: -154px;
+    }
+
+}
+
+
+/* Normal desktop :992px. check with 1050px  (lg device)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        display: inline-block;
+        margin: 0 17px;
+        position: relative;
+    }
+    .access-img img {
+        margin-left: 0;
+    }
+    .testimonial-img img {
+        margin-left: 0;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. check with 876px (md device)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-transparent {
+        padding: 28px 0;
+    }
+    .slider-text {
+        margin-bottom: 41px;
+    }
+    .how-work {
+     
+        padding: 44px 15px;
+        text-align: center;
+    }
+    .how-work-text h3 {
+        font-size: 20px;
+    }
+    .access-img img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .how-works-area {
+        padding-bottom: 0;
+    }
+
+    .testimonial-img img {
+        margin-left: 0;
+    }
+    .newslettter input {
+        height: 57px;
+        width: 67%;
+        margin-bottom: 20px;
+    }
+    .newslettter button {	
+        height: 57px;
+        padding: 0px 40px;
+        float: right;
+    }
+
+}
+/* small mobile :320px.  check with 350px* (xs device)*/
+@media (max-width: 767px) {
+    .slider-text h2 {
+        font-size: 34px;
+        padding-bottom: 40px;
+        font-weight: 700;
+    }
+    .slider-img img {
+        max-width: 100%;
+        padding-top: 36px;
+    }
+    .header-transparent {
+        padding: 28px 0;
+    }
+    .slider-text {
+        margin-bottom: 41px;
+    }
+    .section-title h2 {
+        font-size: 38px;
+
+    }
+    .how-work {
+     
+        padding: 44px 15px;
+        text-align: center;
+    }
+    .how-work-text h3 {
+        font-size: 20px;
+    }
+    .access-img img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .how-works-area {
+        padding-bottom: 0;
+    }
+
+    .testimonial-img img {
+        margin-left: 0;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .newslettter input {
+        height: 57px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newslettter button {	
+        height: 57px;
+        padding: 0px 46px;
+        float: left;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .newsletter-area .section-title h2 {
+        font-size: 23px;
+    }
+    .access-text h3 {
+        font-size: 33px;    
+    }
+    .access-text {
+        margin-bottom: 30px;
+    }
+    .footer-area {
+        padding-top: 50px;
+    }
+    .copyright-area ul {
+        margin: 0px;
+        padding-right: 43px;
+        margin-bottom: 30px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
